@@ -1,0 +1,156 @@
+*{
+    margin: 0px;  
+  }
+  /*antiguo margin:15px;*/
+  body{
+      position: relative;
+  }
+   
+  .infopagos{
+      background: rgb(255, 255, 255);
+      width: 98%;
+  }
+   
+  .METODOS{
+      color: rgb(0, 0, 0);
+      height: 20vh !important;
+      background: url(https://color-hex.org/colors/9592f2.png);
+      background-size: cover;
+      font-family: 'sansita';
+  }
+  /*más al centro el titulo*/
+  .metodos1{
+      font-size: 3.5rem;
+      width: 100%;
+      padding-left: 3cm;
+  }
+   
+  .a{
+      display:flex;
+      font-family: 'Bahnschrift SemiBold';
+      font-size: 1rem;
+      height: 10rem;
+      width: 90%;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5rem black;
+      box-shadow: 0 .0rem 0.2rem rgb(0, 0, 0);
+      margin: 2rem;
+      padding: 1%;
+      padding-left: 1%;
+      padding-right: 1cm;
+      border-bottom: thick solid #000000;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+  .a:hover{
+      color: #5b9488;
+      background-color: #133641;
+      text-decoration: none;
+  }
+  /*Antes era 60rem en width
+   height: 10rem;padding: 40px; padding-left: 1.9cm,margin: 2rem, border-radius: 5rem black;*/
+   
+  .b{
+      display:flex;
+      font-family: 'Bahnschrift SemiBold';
+      font-size: 1rem;
+      height: 10rem;
+      width: 90%;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5rem black;
+      box-shadow: 0 .0rem 0.2rem rgb(0, 0, 0);
+      margin: 2rem;
+      padding: 1%;
+      padding-left: 1%;
+      padding-right: 1cm;
+      border-bottom: thick solid #000000;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+  .b:hover{
+      color: #c7d16f;
+      background-color: #77830e;
+      text-decoration: none;
+  }
+   
+  .c{
+      display:flex;
+      font-family: 'Bahnschrift SemiBold';
+      font-size: 1rem;
+      height: 10rem;
+      width: 90%;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5rem black;
+      box-shadow: 0 .0rem 0.2rem rgb(0, 0, 0);
+      margin: 2rem;
+      padding: 1%;
+      padding-left: 1%;
+      padding-right: 1cm;
+      border-bottom: thick solid #000000;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+    .c:hover{
+      color: #e1e9cf;
+      background-color: #6b705c;
+      text-decoration: none;
+    }
+   
+  .dd{
+      display:flex;
+      font-family: 'Bahnschrift SemiBold';
+      font-size: 1rem;
+      height: 10rem;
+      width: 90%;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5rem black;
+      box-shadow: 0 .0rem 0.2rem rgb(0, 0, 0);
+      margin: 2rem;
+      padding: 1%;
+      padding-left: 1%;
+      padding-right: 1cm;
+      border-bottom: thick solid #000000;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+  .dd:hover{
+      color: #b6ad90;
+      background-color: #252422;
+      text-decoration: none;
+  }
+   
+  img{
+      width: 8rem;
+      height: auto;
+      margin: 1rem;
+      display: block;
+  }
+  /*Antes width: 10rem; height: auto;*/
+   
+  .iconos{
+      display: grid;
+      padding-left: 1cm;
+  }
+   
+  @media (max-width:600px) and (min-width:200px) {
+      .a{
+         font-size: 13px;
+      }
+      .b{
+          font-size: 13px;
+       }
+      .c{
+          font-size: 15px;
+      }
+      .dd{
+          font-size: 9px;
+      }
+  }
+   
+   
+   
+  
