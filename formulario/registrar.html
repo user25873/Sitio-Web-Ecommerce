@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar </title>
+
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+       
+
+           
+                <div class="container">
+                    <center>
+                        <br><br>
+                    <h1= class=" titulo">Registrar una cuenta</h1>
+                    <br>
+                    <center><img class="imagen" src="login.jpg" id="logo"></center>
+                    
+                
+
+			     
+                    <form action="/action_page.php"">
+
+                        <label for="fname">Nombre</label>
+                          <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Apellido</label>
+                          <input type="text" id="lname" name="lname"><br><br>
+                        
+                       <select id="number" name="number">
+                          <option value="D">DNI</option><br><br>
+                          <option value="C"> C/E</option><br><br>
+                       </select> 
+                        <input type="number" id="number" name="number"><br><br>
+                       
+                       <label for="email">Correo Electronico</label><br>
+                          <input type="text" id="email" name="email"><br><br>
+                        <label for="email">Contraseña</label>
+                          <input type="password" id="password" name="password"><br>
+                          <input type="checkbox" name="termino" onclick="disableSending()">
+                        <label for="termino"><a class="terminos" href="./politicaprivacidad.html">
+                            Acepto los Terminos y Condiciones y politicas de privacidad</a></label><br>
+
+                    
+                    
+
+                    <input type="submit" value="Enviar">
+               </form>
+            </center>
+            </div>
+
+                    <!--Register-->
+                   
+</body>
+</html>
